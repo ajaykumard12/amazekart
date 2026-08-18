@@ -1,0 +1,18 @@
+@import "../common.scss";
+
+
+
+.login{
+    &.card{
+    @include card-box-shadow;
+    border-radius:4.5%;
+    }
+
+
+.password-toggle{
+    position: absolute;
+    right: 28px;
+    top: 162px;
+}
+
+}
